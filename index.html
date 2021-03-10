@@ -1,0 +1,593 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Soda</title>
+    <link rel="Shortcut Icon" href="img/logo.ico">
+    <script src="js/jquery.min.js"></script>
+    <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script> -->
+    <script src="js/jquery.onepage-scroll.min.js"></script>
+    <link rel="stylesheet" href="css/onepage-scroll.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous"> -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <div id="tsparticles"></div>
+
+
+    <aside class="sidebar">
+        <div class="sidebar__logo">
+            <img width="182px" src="img/logo.png" alt="Logo">
+        </div>
+
+        <div class="sidebar__nav">
+            <ul class="nav__list onepage-pagination">
+                <li>
+                    <a data-index="1" class="nav__link active" href="#1">Home</a>
+                </li>
+                <li>
+
+                    <a data-index="2" class="nav__link" href="#2">Pools</a>
+                </li>
+                <li>
+
+                    <a data-index="3" class="nav__link" href="#3">Referral</a>
+                </li>
+                <li>
+
+                    <a data-index="4" class="nav__link" href="#4">About Tokken</a>
+                </li>
+                <li>
+
+                    <a data-index="5" class="nav__link" href="#5">Exchange</a>
+                </li>
+                <li>
+
+                    <a data-index="6" class="nav__link" href="#6">Lottery</a>
+                </li>
+            </ul>
+        </div>
+
+        <div class="sidebar__footer">
+            <div class="footer__social">
+                <a href=""><img width="40px" src="img/icons/telega.svg" alt="" class="social__icons"></a>
+                <a href=""><img width="40px" src="img/icons/skype.svg" alt="" class="social__icons"></a>
+                <a href=""><img width="40px" src="img/icons/gmail.svg" alt="" class="social__icons"></a>
+            </div>
+            <div class="footer__copy">"SODA company" all rights reserved © 2018</div>
+        </div>
+    </aside>
+
+    <div class="top__panel">
+
+        <div class="burger__menu">
+            <div class="burger"></div>
+        </div>
+
+
+
+        <div class="top__panel-btns">
+            <button class="top__panel-btn">Audit telescr</button>
+            <button class="top__panel-btn">Audit hazesecurity</button>
+            <button class="top__panel-btn">Contract </button>
+        </div>
+        <div class="top__panel-total">
+            total invested in the project: <span>2 504 638TRX</span>
+        </div>
+    </div>
+
+
+    <div class="right__panel">
+        <div class="home__time">
+            <img width="26px" src="img/icons/time.svg" alt="">
+            <div class="home__time-date"><span class="home__time-date-t"></span><br><span
+                    class="home__time-date-d"></span></div>
+        </div>
+
+        <div class="home__lan">
+            <a href="#"><img class="en active" width="30px" src="img/icons/en.svg" alt=""></a>
+            <a href="#"><img class="ru" width="30px" src="img/icons/ru.svg" alt=""></a>
+        </div>
+
+        <div class="home__slide-number">
+            <span class="home__slide-num">01</span><span>/06</span>
+        </div>
+    </div>
+
+
+
+
+
+
+    <div class="main">
+
+        <section class="home">
+
+            <div class="home__about">
+                <h2 class="home__about-title">About SODA company</h2>
+                <div class="home__about-text">
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dignissimos provident totam quis
+                        sapiente, deleniti velit! Voluptates esse error fugit tenetur harum sint aliquid dolorem illo
+                        adipisci, assumenda quia fuga quisquam.
+                        Velit adipisci ipsa quos obcaecati aperiam, inventore suscipit culpa expedita accusamus dolorum
+                        exercitationem. Distinctio ipsa officiis similique magni totam, dolorem illo vero odio ipsum
+                        animi. Qui ex non exercitationem quis!</p>
+                    <p>Enim perferendis nisi reprehenderit, quis excepturi quibusdam necessitatibus maiores quaerat
+                        consequuntur beatae cum dignissimos ratione tempore? Repudiandae sapiente, facilis adipisci,
+                        minima eos vero repellat voluptates illo tempora fuga excepturi porro!</p>
+                </div>
+                <ul class="onepage-pagination home__about-btn">
+                    <li>
+                        <a data-index="2" href="#2" class="btn-yellow">Invest now</a>
+                    </li>
+                </ul>
+
+            </div>
+
+            <div class="home__slider">
+
+                <div class="home__stat">
+                    <div class="home__stat-total">
+                        Total staked<br>
+                        <span class="stat__total-number">2341</span><span class="stat__total-suptxt">trx</span>
+                    </div>
+
+                    <div class="home__stat-value">
+                        Token value<br>
+                        1 SODA = <span class="stat__total-number">2341</span><span
+                            class="stat__total-suptxt">trx</span><br>
+                        1 SODA = <span class="stat__total-number">2341</span><span
+                            class="stat__total-suptxt">usdt</span>
+                    </div>
+                </div>
+
+                <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <!-- <div class="bottle__inner">
+                                tron-soda
+                                <div class="bottle__inner-circle">apr:<br>217.85%</div>
+                                earn:<br>soda
+                            </div> -->
+                            <img src="img/bottle-orange.png" class="d-block w-100" alt="...">
+                        </div>
+                        <div class="carousel-item">
+                            <!-- <div class="bottle__inner">
+                                soda-soda
+                                <div class="bottle__inner-circle">apr:<br>217.85%</div>
+                                earn:<br>soda
+                            </div> -->
+                            <img src="img/bottle-green.png" class="d-block w-100" alt="...">
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
+                        data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"
+                        data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    </button>
+                </div>
+
+
+                <ul class="onepage-pagination home__slider-detalis">
+                    <li>
+                        <a data-index="2" href="#2">More details</a>
+                    </li>
+                </ul>
+
+            </div>
+
+            <div class="home__right">
+                <button class="home__right-calc"><img width="20px" src="img/icons/calcul.svg" alt="">Calcilate your
+                    profit</button>
+                <h2 class="home__referral-title">Referral program</h2>
+                <div class="home__referral-text">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Et ex, consectetur praesentium excepturi
+                        omnis, ut consequatur ipsam, harum adipisci molestiae voluptate. Saepe nulla commodi quis
+                        provident quos eum tempora quisquam!</p>
+                </div>
+                <ul class="onepage-pagination home__referral-btn">
+                    <li> <a data-index="3" href="#3">Your referral</a></li>
+                </ul>
+
+            </div>
+
+        </section>
+
+        <section class="pools">
+
+            <div class="pools__cards">
+
+                <div class="pools__cards-item">
+
+
+                    <!-- <div class="bottle__inner bottle__inner-1">
+                        tron-soda
+                        <div class="bottle__inner-circle bottle__inner-circle-1">apr:<br>217.85%</div>
+                        earn:<br>soda
+                    </div> -->
+                    <img class="pools__cards-bootle" src="img/bottle-orange.png" alt="">
+
+
+
+
+
+                    <h3 class="pools__cards-title">tro-soda lp</h3>
+                    <div class="pools__cards-count">
+                        Core
+                        <div class="pools__cards-number">40X</div>
+                    </div>
+
+                    <div class="pools__cards-txt">APR: <span>217.85%</span></div>
+                    <div class="pools__cards-txt">Earn: <span>SODA</span></div>
+
+                    <label>Soda earned: <input value="45277" class="pools__cards-input" type="number"></label>
+                    <button class="pools__cards-btn">Harvest</button>
+
+                    <div class="pools__cards-txt">TRON-SODA PL STAKED</div>
+                    <div class="pools__cards-total">Total Liqualidity:<br><span>$152 020 045</span></div>
+                </div>
+
+
+
+                <div class="pools__cards-item">
+
+
+
+                    <!-- <div class="bottle__inner bottle__inner-2">
+                        soda-soda
+                        <div class="bottle__inner-circle">apr:<br>217.85%</div>
+                        earn:<br>soda
+                    </div> -->
+                    <img class="pools__cards-bootle" src="img/bottle-green.png" alt="">
+
+
+
+                    <h3 class="pools__cards-title">tro-soda lp</h3>
+                    <div class="pools__cards-count">
+                        Core
+                        <div class="pools__cards-number">40X</div>
+                    </div>
+
+                    <div class="pools__cards-txt">APR: <span>217.85%</span></div>
+                    <div class="pools__cards-txt">Earn: <span>SODA</span></div>
+
+                    <label>Soda earned: <input value="45277" class="pools__cards-input" type="number"></label>
+                    <button class="pools__cards-btn">Harvest</button>
+
+                    <div class="pools__cards-txt">TRON-SODA PL STAKED</div>
+                    <div class="pools__cards-total">Total Liqualidity:<span>$152 020 045</span></div>
+                </div>
+
+
+
+                <div class="pools__cards-item">
+                    <img class="pools__cards-item-calc" src="img/icons/calcul_big.svg" alt="">
+                    <div class="pools__cards-txt">Choose a bottle:</div>
+                    <div class="pools__cards-choose-btns">
+                        <label><input checked type="radio" name="btn-choose" class="pools__cards-choose-btn">
+                            <div class="pools__div-1"><img src="img/choose-btn1.png" alt=""><span>tron-soda</span></div>
+                        </label>
+                        <label><input type="radio" name="btn-choose" class="pools__cards-choose-btn">
+                            <div class="pools__div-2"><img src="img/choose-btn2.png" alt=""><span>soda-soda</span></div>
+                        </label>
+                    </div>
+
+                    <label>Soda earned: <input value="45277" class="pools__cards-input" type="number"></label>
+
+
+                    <div class="pools__cards-txt pools__cards-txt-calc-1">Dally profit: <span>42415
+                            <span>TRX</span></span></div>
+                    <div class="pools__cards-txt pools__cards-txt-calc-2">Total profit: <span>4244415
+                            <span>TRX</span></span></div>
+                    <button class="pools__cards-btn pools__cards-btn-calc">Invest</button>
+                    <button class="pools__cards-btn pools__cards-btn-unstake">Unstake</button>
+                </div>
+
+            </div>
+
+        </section>
+
+        <section class="referral">
+            <div class="referral__inner">
+                <h2 class="referral__title">Referral program</h2>
+                <div class="referral__perc">20 levels <button class="btn-yellow" type="button" data-bs-toggle="modal"
+                        data-bs-target="#modal__referral">More details</button> </div>
+                <div class="referral__text">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis magni blanditiis esse nulla
+                        cumque, fuga consequuntur deleniti quibusdam illum libero, rem explicabo error iure, ullam natus
+                        molestiae aspernatur illo voluptatem.
+                        Modi eaque deserunt autem iure obcaecati. Ipsa quos sunt corrupti corporis quia adipisci ipsum
+                        aspernatur alias quam, repellendus officia voluptatum rem minus modi, explicabo provident,
+                        perferendis fuga deleniti expedita sit!</p>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Blanditiis veritatis velit amet
+                        corporis sequi libero laborum laboriosam! Iure eos facilis itaque tempora voluptatum dicta aut!
+                        Totam placeat quaerat nam provident.</p>
+                </div>
+                <label>Your referral link:<input type="text" class="referral__link" value="https://google.com"></label>
+
+                <div class="referral__input-btns">
+                    <button class="referral__btn-copy">Copy link</button>
+                    <button data-bs-target="#modal__banners" data-bs-toggle="modal" type="button"
+                        class="referral__btn-banners">Banners</button>
+                </div>
+                <div class="referral__rewards">Available rewards: <span>23144<span> APE</span></div>
+                <button class="btn-yellow referral__rewards-btn">Claim reward</button>
+
+            </div>
+
+            <img class="referral__bg" src="img/referral-bg.png" alt="">
+        </section>
+
+        <section class="about">
+            <div class="about__inner">
+                <h2 class="about__title">About tokken</h2>
+                <div class="about__text">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur impedit mollitia a alias
+                        minus
+                        eligendi unde quos inventore numquam porro. Ad labore ducimus aut fugit sunt corrupti porro
+                        dignissimos in?</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit omnis quae fuga ratione
+                        quisquam
+                        quia eum voluptatem nihil eligendi corporis delectus rerum sunt non amet laudantium, deleniti
+                        blanditiis ducimus. Est.</p>
+                    <p>Veritatis iure hic fuga eaque saepe minima, maiores corrupti fugiat rerum deserunt. Eaque est
+                        deleniti nesciunt adipisci dolorem labore iste laborum, ab, quibusdam sapiente vero blanditiis,
+                        beatae error quia perferendis!</p>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Suscipit, excepturi voluptas? Culpa
+                        incidunt praesentium provident voluptatibus repudiandae sequi ex sed. Earum rem placeat unde
+                        illum ex cupiditate repudiandae dolorem fugit?</p>
+                </div>
+                <ul class="onepage-pagination home__about-btn">
+                    <li>
+                        <a data-index="2" href="#2" class="btn-yellow">Invest now</a>
+                    </li>
+                </ul>
+            </div>
+            <img class="about__bg" src="img/coins.png" alt="">
+        </section>
+
+        <section class="exchange">
+            <div class="exchange__inner">
+                <h2 class="exchange__title">Exchange</h2>
+                <div class="exchange__text">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nihil harum atque quo illo, odio,
+                        beatae deleniti ut sit, perferendis nisi distinctio vel modi! Iste autem dolores recusandae
+                        accusamus tempore! Maiores?
+                        Dignissimos itaque reprehenderit amet tenetur. Consequatur, sit? Non recusandae perspiciatis
+                        natus fuga ex eos neque nisi eligendi, expedita impedit vero explicabo sit nulla? Laudantium
+                        quaerat, blanditiis architecto est nesciunt natus.</p>
+                </div>
+                <label>Soda:<input type="number" class="exchange__input" value="0.0"></label>
+                <label>Tron:<input type="number" class="exchange__input" value="0.0"></label>
+                <div class="exchange__price">
+                    Price
+                    <span class="exchange__price-number">0.0364793 BNB PER ALPHA</span>
+                </div>
+                <button class="btn-yellow">Exchange</button>
+            </div>
+            <img class="exchange__bg" src="img/exchange-bg.png" alt="">
+        </section>
+
+        <section class="lottery">
+            <div class="lottery__inner">
+
+                <div class="lottery__left">
+                    <h2 class="lottery__title">The soda lottery</h2>
+                    <div class="lottery__text">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel pe</p>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae, reiciendis expedita tempore
+                            dolore eveniet ullam, facilis voluptatum perspiciatis nobis corrupti ad repudiandae enim rem
+                            saepe laudantium asperiores. Iusto, vero nihil?</p>
+                    </div>
+                    <div class="lottery__progress">
+                        <div class="lottery__progress-line"></div>
+                    </div>
+                    <div class="lottery__time">10h, 1m <span>Until ticket sale</span></div>
+                    <div class="lottery__time-sm">2h, 1m Until lottery draw</div>
+
+                    <div class="lottery__balance">
+                        <h3 class="lottery__balance-title">Your balance available for withdrawal</h3>
+                        <div class="lottery__balance-wrap">
+                            <div class="lottery__balance-number">1354</div>
+                            <button class="lottery__balance-btn btn-yellow">Withdraw</button>
+                        </div>
+                    </div>
+
+                    <div class="lottery__winnum">
+                        <h3 class="lottery__winnum-title">Latest winning numbers</h3>
+                        <div class="lottery__winnum-inner">
+                            <div class="lottery__winnum-ball">1</div>
+                            <div class="lottery__winnum-ball">2</div>
+                            <div class="lottery__winnum-ball">3</div>
+                            <div class="lottery__winnum-ball">4</div>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="lottery__right">
+
+                    <div class="lottery__total">
+                        <div class="lottery__round">ROUND: <span>134</span></div>
+                        <div class="lottery__pot">
+                            <img class="lottery__pot-img" src="img/banka_soda.png" alt="">
+                            <div class="lottery__pot-inner">
+                                <h3 class="lottery__pot-title">Total pot</h3>
+                                <div class="lottery__pot-number">13 541 <span>SODA</span></div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="lottery__ticket">
+                        <div class="lottery__ticket-inner">
+                            <img class="lottery__ticket-img" src="img/tickets.png" alt="">
+                            <div class="lottery__ticket-text">
+                                <h3 class="lottery__ticket-title">Your tickeets for this round</h3>
+                                <div class="lottery__ticket-number">1354</div>
+                            </div>
+                        </div>
+                        <button class="lottery__ticket-btn-left" type="button" data-bs-toggle="modal"
+                            data-bs-target="#modal__buy">View your tickets</button>
+                        <button class="lottery__ticket-btn-right btn-yellow">Approve soda</button>
+                        <img class="lottery__bottle" src="img/bottle-lottery.png" alt="">
+                    </div>
+
+                    <div class="lottery__lastwin">
+                        <h3 class="lottery__lastwin-title">Last winners</h3>
+                        <div class="lottery__lastwin-inner">
+                            <div class="lottery__lastwin-col">
+                                User_631133456711<br>
+                                User_6311336711<br>
+                                User_631133456711<br>
+                                User_63113345698711<br>
+                                User_6311
+                            </div>
+                            <div class="lottery__lastwin-col">
+                                User_631133456711<br>
+                                User_6311336711<br>
+                                User_631133456711<br>
+                                User_63113345698711<br>
+                                User_6311
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+        </section>
+
+    </div>
+
+
+
+
+    <div class="modal fade" id="modal__banners" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+
+                    <h2 class="modal__banners-title">Our banners</h2>
+
+                    <div class="modal__banners-item">
+                        <div class="modal__banners-size">125X125</div>
+                        <img height="100px" src="img/125.png" alt="">
+                        <textarea class="modal__banners-text" name="" id="" cols="30"
+                            rows="10">Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque esse pariatur ex modi enim corporis soluta distinctio velit incidunt id ipsa veniam totam</textarea>
+                    </div>
+                    <div class="modal__banners-item">
+                        <div class="modal__banners-size">125X125</div>
+                        <img height="40px" src="img/468.png" alt="">
+                        <textarea class="modal__banners-text" name="" id="" cols="30"
+                            rows="10">Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque esse pariatur ex modi enim corporis soluta distinctio velit incidunt id ipsa veniam totam</textarea>
+                    </div>
+                    <div class="modal__banners-item">
+                        <div class="modal__banners-size">125X125</div>
+                        <img height="60px" src="img/728.png" alt="">
+                        <textarea class="modal__banners-text" name="" id="" cols="30"
+                            rows="10">Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque esse pariatur ex modi enim corporis soluta distinctio velit incidunt id ipsa veniam totam</textarea>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="modal fade" id="modal__referral" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+
+
+                <div class="modal-body">
+
+                    <h2 class="modal__banners-title">Referral program</h2>
+
+                    <div class="modal__referral-inner">
+                        <div class="modal__referral-col">
+                            1- level 20<br>
+                            2- level 15%<br>
+                            3- level 10%<br>
+                            4- level 10%<br>
+                            5- level 10%<br>
+                            6- level 5%<br>
+                            7- level 5%<br>
+                            8- level 5%<br>
+                            9- level 5%<br>
+                            10- level 5%<br>
+                        </div>
+                        <div class="modal__referral-col">
+                            11- level 4%<br>
+                            12- level 4%<br>
+                            13- level 4%<br>
+                            14- level 4%<br>
+                            15- level 3%<br>
+                            16- level 3%<br>
+                            17- level 3%<br>
+                            18- level 2%<br>
+                            19- level 2%<br>
+                            20- level 2%<br>
+                        </div>
+                    </div>
+
+
+
+                </div>
+
+
+            </div>
+        </div>
+    </div>
+
+
+
+    <div class="modal fade" id="modal__buy" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal__dialog-buy">
+            <div class="modal-content modal__content-buy">
+                <div class="modal-header">
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <h2 class="modal__buy-title">buying a ticket</h2>
+                    <div class="modal__buy-txt">Indicate the number of tickets:</div>
+                    <input class="modal__buy-input" step="0.1" type="number">
+                    <button class="modal__buy-btn">Buy now</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+    <!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0"
+        crossorigin="anonymous"></script> -->
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/tsparticles.min.js"></script>
+    <script src="js/settings-bg.js"></script>
+    <script src="js/script.js"></script>
+
+
+
+
+</body>
+
+</html>
